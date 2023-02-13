@@ -1,0 +1,51 @@
+/*Color Guide:
+    Yellow: #FBF2C0
+    Grey: #5B5B5B
+
+*/
+
+body{
+    background-color: blueviolet;
+}
+
+.navbar{
+    float: right;
+    margin: 20px;
+    ;
+}
+
+.nav-link{
+    color: #FBF2C0;
+    background: #5B5B5B;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: #FBF2C0;
+
+    font-family: 'Donegal One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+rect{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 785px;
+    height: 163px;
+    left: 352px;
+    top: 459px;
+
+    background: rgba(91, 91, 91, 0.71);
+    opacity: 0.9;
+    border: 1px solid #000000;
+    filter: blur(49.5px);
+}
